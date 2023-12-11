@@ -1,8 +1,8 @@
 {
   "name": "meuappe-api",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "<p align=\"center\">   <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo-small.svg\" width=\"200\" alt=\"Nest Logo\" /></a> </p>",
+  "author": "Wagner",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -77,5 +77,20 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagneramarelo/meuappe-api.git"
+  },
+  "keywords": [
+    "W@gner1980"
+  ],
+  "bugs": {
+    "url": "https://github.com/wagneramarelo/meuappe-api/issues"
+  },
+  "homepage": "https://github.com/wagneramarelo/meuappe-api#readme"
 }
