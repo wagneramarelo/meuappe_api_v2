@@ -9,12 +9,12 @@ useFactory: async () => {
         host: 'localhost',
         port: 3306,
         username: 'root',
-        password: 'password',
+        password: 'admin',
         database: 'meuappe',
         entities: [
             __dirname + '/../**/*.entity{.ts,.js}',
         ],
-        synchronize: false,
+        synchronize: true,
     });
 
     return dataSource.initialize();

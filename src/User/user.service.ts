@@ -21,8 +21,9 @@ export class UserService {
     user.name = data.name
     user.email = data.email
     user.password = data.password
+    user.cpf = data.cpf
     user.phone = data.phone
-    user.CPF = data.CPF
+   
 
     return this.userRepository.save(user)
     .then((_result) => {

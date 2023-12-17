@@ -15,7 +15,7 @@ export class User {
   password: string;
   
   @Column({ length: 20 })
-  CPF: string;
+  cpf: string;
 
   @Column({ length: 20 })
   phone: string;

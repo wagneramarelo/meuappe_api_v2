@@ -5,7 +5,7 @@ export class Apto {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @Column({ length: 100 })
+  @Column({ length: 45 })
   aptoNumber: string;
 
   @Column({ length: 255 })
