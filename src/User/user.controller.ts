@@ -16,7 +16,7 @@ async listar(): Promise<User[]>{
 @Post('cadastrar')
 async cadastrar(@Body()data: UserCreateDTO): Promise<ResultDto>{
 
-    return this.UserService.cadastrar(data)
+    return this.UserService.cadastrar({ data })
  
 }
 }

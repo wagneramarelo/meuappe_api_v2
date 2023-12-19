@@ -15,7 +15,7 @@ export class UserService {
     return this.userRepository.find();
   }
 
-  async cadastrar(data: UserCreateDTO): Promise<ResultDto>{
+  async cadastrar({ data }: { data: UserCreateDTO; }): Promise<ResultDto>{
     let user = new User()
 
     user.name = data.name
